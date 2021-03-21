@@ -28,6 +28,8 @@ Get the eslint config and prettier config contents from the directories in this 
     - `extends` (applies to "configs" and automatically pulls in the rules)
     - `plugins` (makes certain rules available)
     - `env` and `parserOptions` are for certain default configs, etc
+    - `root: true` may be needed to avoid conflicts with eslintrc files higher up the folder chain
+    - [full config file docs](https://eslint.org/docs/user-guide/configuring/configuration-files#using-configuration-files)
 - .prettierrc
 
 **usage notes**
